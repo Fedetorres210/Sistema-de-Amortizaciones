@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>logico</id>
+    <version>1.0.0</version>
+    <authors>logico</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/bin/Debug/net7.0/logico.dll" target="lib/net7.0/logico.dll" />
+  </files>
+</package>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OUbw6IUoofZ+Kqi4b9yunvF8IkcXypasB11cyWnYd+KLusO0/kqyNUyk/jAYIaDF8w3tfzd+VRblhXAFh/DEkw==",
+  "success": true,
+  "projectFilePath": "/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/Laboratorio 1 Diseño.csproj",
+  "expectedPackageFiles": [
+    "/Users/federicotorres/.nuget/packages/htmlagilitypack/1.11.59/htmlagilitypack.1.11.59.nupkg.sha512"
+  ],
+  "logs": []
+}

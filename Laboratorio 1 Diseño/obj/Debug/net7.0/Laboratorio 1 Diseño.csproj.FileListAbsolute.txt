@@ -1,0 +1,36 @@
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/bin/Debug/net7.0/appsettings.Development.json
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/bin/Debug/net7.0/appsettings.json
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/bin/Debug/net7.0/Laboratorio 1 Diseño.staticwebassets.runtime.json
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/bin/Debug/net7.0/Laboratorio 1 Diseño
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/bin/Debug/net7.0/Laboratorio 1 Diseño.deps.json
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/bin/Debug/net7.0/Laboratorio 1 Diseño.runtimeconfig.json
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/bin/Debug/net7.0/Laboratorio 1 Diseño.dll
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/bin/Debug/net7.0/Laboratorio 1 Diseño.pdb
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.csproj.AssemblyReference.cache
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.GeneratedMSBuildEditorConfig.editorconfig
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.AssemblyInfoInputs.cache
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.AssemblyInfo.cs
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.csproj.CoreCompileInputs.cache
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.MvcApplicationPartsAssemblyInfo.cache
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.RazorAssemblyInfo.cache
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.RazorAssemblyInfo.cs
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/staticwebassets/msbuild.Laboratorio 1 Diseño.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/staticwebassets/msbuild.build.Laboratorio 1 Diseño.props
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Laboratorio 1 Diseño.props
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Laboratorio 1 Diseño.props
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/staticwebassets.build.json
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/staticwebassets.development.json
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/scopedcss/bundle/Laboratorio 1 Diseño.styles.css
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/scopedcss/projectbundle/Laboratorio 1 Diseño.bundle.scp.css
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.dll
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/refint/Laboratorio 1 Diseño.dll
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.pdb
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.genruntimeconfig.cache
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/ref/Laboratorio 1 Diseño.dll
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/bin/Debug/net7.0/logico.dll
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/bin/Debug/net7.0/logico.pdb
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/obj/Debug/net7.0/Laboratorio 1 Diseño.csproj.CopyComplete
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/Laboratorio 1 Diseño/bin/Debug/net7.0/HtmlAgilityPack.dll

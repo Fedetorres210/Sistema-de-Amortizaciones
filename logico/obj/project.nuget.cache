@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XQIIL+mzDnjTKgaYP9XaI1hSO5RapJ8ypfRB5DsORCkVC4yqE/0ii0RXwJZzFPMZ5ajE5/EpXTGt2iD4/8NRNw==",
+  "success": true,
+  "projectFilePath": "/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/logico.csproj",
+  "expectedPackageFiles": [
+    "/Users/federicotorres/.nuget/packages/htmlagilitypack/1.11.59/htmlagilitypack.1.11.59.nupkg.sha512"
+  ],
+  "logs": []
+}

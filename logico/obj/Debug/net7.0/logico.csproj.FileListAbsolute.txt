@@ -1,0 +1,12 @@
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/bin/Debug/net7.0/logico.deps.json
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/bin/Debug/net7.0/logico.dll
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/bin/Debug/net7.0/logico.pdb
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/obj/Debug/net7.0/logico.csproj.AssemblyReference.cache
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/obj/Debug/net7.0/logico.GeneratedMSBuildEditorConfig.editorconfig
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/obj/Debug/net7.0/logico.AssemblyInfoInputs.cache
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/obj/Debug/net7.0/logico.AssemblyInfo.cs
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/obj/Debug/net7.0/logico.csproj.CoreCompileInputs.cache
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/obj/Debug/net7.0/logico.dll
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/obj/Debug/net7.0/refint/logico.dll
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/obj/Debug/net7.0/logico.pdb
+/Users/federicotorres/Projects/Laboratorio 1 Diseño/logico/obj/Debug/net7.0/ref/logico.dll

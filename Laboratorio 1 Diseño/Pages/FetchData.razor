@@ -1,0 +1,195 @@
+﻿@page "/fetchdata"
+@using Laboratorio_1_Diseño.Data
+@using logico.paquete_1
+
+
+<PageTitle>Amortizacion</PageTitle>
+
+@code{
+    private string nombreUsuario = "";
+    private double monto;
+    private double interes;
+    private int plazo;
+    private string moneda = " ";
+    private string sistemaSeleccionado = " ";
+
+    private List<string> monedas = new List<string> { "Dolares", "Colones" };
+    private List<string> sistemas = new List<string> { "Sistema Aleman", "Sistema Frances", "Sistema Americano" };
+
+}
+<h1>Sistema Amortización</h1>
+
+<p>Servicio de simulación de un sistema de amortización</p>
+
+<div class="mb-3">
+    <label class="form-label">Nombre del Cliente:</label>
+    <input type="text" @bind="nombreUsuario" class="form-control" placeholder="Ingrese el nombre del usuario" required />
+    <div class="invalid-feedback">
+        Por favor, ingrese un nombre válido.
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Monto deseado:</label>
+    <input type="number" @bind="monto" class="form-control" placeholder="Ingrese el monto deseado" required />
+    <div class="invalid-feedback">
+        Por favor, ingrese un monto válido.
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Plazo:</label>
+    <input type="number" @bind="plazo" class="form-control" placeholder="Ingrese el monto deseado" required />
+    <div class="invalid-feedback">
+        Por favor, ingrese un valor válido.
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Interes:</label>
+    <input type="number" @bind="interes" class="form-control" placeholder="Ingrese el nombre del usuario" required />
+    <div class="invalid-feedback">
+        Por favor, ingrese un monto válido.
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Moneda:</label>
+    <select @bind="moneda" class="form-select">
+        @foreach (string opcion in monedas)
+        {
+            <option value="@opcion">@opcion</option>
+        }
+    </select>
+</div>
+
+<div class = "mb-3">
+    <label class="form-label">Sistema deseado:</label>
+    <select @bind="sistemaSeleccionado" class="form-select">
+        @foreach (string opcion in sistemas)
+        {
+            <option value="@opcion">@opcion</option>
+        }
+    </select>
+</div>
+
+<button @onclick="GenerarSistema" class="btn btn-success">Generar Sistema</button>
+
+
+@if (mostrarTabla)
+{
+    <h2 class="text-primary">Se ha generado la consulta bajo los siguientes datos:</h2>
+    <p class="text-muted">Nombre del Cliente: @nombreUsuario</p>
+    <p class="text-muted">Periodo en Años: @plazo</p>
+    <p class="text-muted">Interes: @interes %</p>
+    <p class="text-muted">Monto: @monto</p>
+    <p class="text-muted">Moneda: @moneda</p>
+    <p class="text-muted">Sistema: @sistemaSeleccionado</p>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Periodo</th>
+                <th>Deuda Inicial</th>
+                <th>Intereses</th>
+                <th>Amortizacion</th>
+                <th>Cuota</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < sistemaCredito.calcularAmenidadesCredito()["Deuda Inicial"].Count; i++)
+            {
+
+
+<tr>
+                    @if (i+1 >= sistemaCredito.calcularAmenidadesCredito()["Cuota"].Count)
+                    {
+                        <td>Total</td>
+                    }
+                    else { <td>@(i + 1)</td>}
+                    
+                    <td>@sistemaCredito.calcularAmenidadesCredito()["Deuda Inicial"][i]</td>
+                    <td>@sistemaCredito.calcularAmenidadesCredito()["Tasa de interes"][i]</td>
+                    <td>@sistemaCredito.calcularAmenidadesCredito()["Amortizacion"][i]</td>
+                    <td>@sistemaCredito.calcularAmenidadesCredito()["Cuota"][i]</td>
+                </tr>
+             }
+                    
+        </tbody>
+
+    </table>
+
+
+
+
+}
+
+@code {
+    private bool mostrarTabla = false;
+    public SistemaPago sistemaCredito;
+    private Convertidor convertidor = new Convertidor();
+    private double montoDolares;
+
+
+    private void GenerarSistema()
+    {
+
+        if (moneda.Equals("Dolares"))
+        {
+            montoDolares = convertidor.realizarTipoCambio(monto);
+            Console.WriteLine("Entra Correctamente a la seccion de dolares y el interes es "+ interes );
+
+            if (sistemaSeleccionado == "Sistema Aleman")
+            {
+                sistemaCredito = new SistemaAleman(monto, plazo, interes,convertidor);
+            }
+            else
+            {
+                if (sistemaSeleccionado == "Sistema Frances")
+                {
+                    sistemaCredito = new SistemaFrances(monto, plazo, interes,convertidor);
+                }
+                else
+                {
+                    if (sistemaSeleccionado == "Sistema Americano")
+                    {
+                        sistemaCredito = new SistemaAmericano(monto, plazo, interes,convertidor);
+
+                    }
+                }
+            }
+        }
+
+        else
+        {
+            if (sistemaSeleccionado == "Sistema Aleman")
+            {
+                sistemaCredito = new SistemaAleman(monto, plazo, interes);
+            }
+            else
+            {
+                if (sistemaSeleccionado == "Sistema Frances")
+                {
+                    sistemaCredito = new SistemaFrances(monto, plazo, interes);
+                }
+                else
+                {
+                    if (sistemaSeleccionado == "Sistema Americano")
+                    {
+                        sistemaCredito = new SistemaAmericano(monto, plazo, interes);
+
+                    }
+                }
+            }
+
+        }
+
+        mostrarTabla = true;
+
+    }
+
+
+
+
+
+}
+
